@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    color: black;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+.bg{
+    background-color: #BEFC9D;
+}
+.f-bg{
+    box-shadow: #BEFC9D;
+}
+.block-f{
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2%;
+    margin: 5%;
+    margin: 0;
+}
+.block-f:hover{
+    background-color: black;
+    border-radius: 10px;
+    transition: all 0.5s;
+    color: white;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h1:after
+{
+    display: block;
+    height: 2px;
+    background-color: #5DADE2;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}

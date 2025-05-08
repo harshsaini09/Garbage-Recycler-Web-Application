@@ -1,0 +1,39 @@
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+input{
+    display:inline;
+}
+input[type=button]{
+    padding:10px;
+    background-color: #BEFC9D;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+}
+input[type=button]:hover{
+    background-color: #a2ff70;
+    opacity: 1;
+    transition: opacity 0.5s
+}
+input[type=number]{
+    padding:7px;
+}
+.btn-book{
+    background-color: #BEFC9D;
+    width: fit-content;
+    height: 50px;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn-book:hover,.btn-book:active{
+    transform: scale(1.08);
+    transition: all 0.5s ease-in-out;
+}
+@media only screen and (max-width: 770px){
+    .btn-book{
+        width: fit-content;
+    }
+}

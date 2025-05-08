@@ -1,0 +1,29 @@
+.bg{
+    background-color: #BEFC9D;
+}
+.profile img{
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    margin-bottom: 1%;
+}
+.container{
+    margin-top: 10%;
+}
+.btn-book{
+    background-color: #BEFC9D;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    padding: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn-book:hover,.btn-book:active{
+    transform: scale(1.08);
+    transition: all 0.5s ease-in-out;
+}
+@media only screen and (max-width: 770px){
+    .btn-book{
+        width: 100%;
+    }
+}
